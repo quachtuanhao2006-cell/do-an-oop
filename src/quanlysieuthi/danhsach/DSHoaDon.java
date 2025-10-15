@@ -33,7 +33,7 @@ public class DSHoaDon {
     }
 
     public void them() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         System.out.print("Nhap so luong hoa don can them: ");
         int n = Integer.parseInt(sc.nextLine());
 
@@ -85,7 +85,7 @@ public class DSHoaDon {
     }
 
     public void sua() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         if (danhSachHD.length == 0) {
             System.out.println("Danh sach trong");
             return;
@@ -103,7 +103,7 @@ public class DSHoaDon {
     }
 
     public void xoa() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         if (danhSachHD.length == 0) {
             System.out.println("Danh sach rong");
             return;
@@ -133,7 +133,7 @@ public class DSHoaDon {
     }
 
     public void timHoaDon() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         if (danhSachHD.length == 0) {
             System.out.println("Danh sach trong");
             return;

@@ -41,7 +41,7 @@ public class DSSP {
         danhSachSP = danhsach.getDanhSach();
     }
     public void nhap(){
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         int n=0,chon=0;
         System.out.println("nhap so luong san pham ");
         n = Integer.parseInt(sc.nextLine());
@@ -90,7 +90,7 @@ public class DSSP {
     }
     
     public void them(){
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         int n=0,chon=0;
         System.out.println("nhap so luong san pham muon them: ");
         n = Integer.parseInt(sc.nextLine());

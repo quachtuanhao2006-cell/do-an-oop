@@ -1,6 +1,7 @@
 package quanlysieuthi.SanPham;
 
 import java.util.Scanner;
+import quanlysieuthi.danhsach.Input;
 
 public class SanPham {
     private String maSP;
@@ -61,7 +62,7 @@ public class SanPham {
 
     // Ham nhap
     public void nhap() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         System.out.print("Nhap ma san pham: ");
         maSP = sc.nextLine();
         System.out.print("Nhap ten san pham: ");

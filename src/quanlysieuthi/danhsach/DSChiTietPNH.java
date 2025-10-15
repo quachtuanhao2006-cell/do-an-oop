@@ -42,7 +42,7 @@ public class DSChiTietPNH {
     }
 
     public void them() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         System.out.print("So luong chi tiet phieu nhap can them: ");
         int n = Integer.parseInt(sc.nextLine());
 
@@ -83,7 +83,7 @@ public class DSChiTietPNH {
     }
 
     public void nhap() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         System.out.print("Nhap so luong chi tiet phieu nhap can nhap: ");
         int n = Integer.parseInt(sc.nextLine());
 
@@ -122,7 +122,7 @@ public class DSChiTietPNH {
     }
 
     public void sua() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         if (danhSachCTPNH.length == 0) {
             System.out.println("Danh sach rong!");
             return;
@@ -140,7 +140,7 @@ public class DSChiTietPNH {
     }
 
     public void xoa() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         if (danhSachCTPNH.length == 0) {
             System.out.println("Danh sach rong!");
             return;

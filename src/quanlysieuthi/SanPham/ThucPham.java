@@ -1,6 +1,7 @@
 package quanlysieuthi.SanPham;
 
 import java.util.Scanner;
+import quanlysieuthi.danhsach.Input;
 
 public class ThucPham extends SanPham {
     private String hsd;          
@@ -48,7 +49,7 @@ public class ThucPham extends SanPham {
     @Override
     public void nhap() {
         super.nhap(); // goi nhap cua SanPham truoc
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
 
         System.out.print("Nhap han su dung: ");
         hsd = sc.nextLine();

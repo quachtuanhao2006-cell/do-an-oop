@@ -91,7 +91,7 @@ public class KhachHang {
 
 
     public void nhap() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         System.out.print("Nhập mã KH: ");
         maKH = sc.nextLine();
         System.out.print("Nhập họ: ");

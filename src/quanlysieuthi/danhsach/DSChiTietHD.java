@@ -42,7 +42,7 @@ public class DSChiTietHD {
     }
 
     public void them() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         System.out.print("So luong chi tiet hoa don can them: ");
         int n = Integer.parseInt(sc.nextLine());
 
@@ -90,7 +90,7 @@ public class DSChiTietHD {
 
     // Sua chi tiet hoa don
     public void sua() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         if (danhSachCTHD.length == 0) {
             System.out.println("Danh sach rong");
             return;
@@ -109,7 +109,7 @@ public class DSChiTietHD {
 
     // Xoa chi tiet hoa don
     public void xoa() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         if (danhSachCTHD.length == 0) {
             System.out.println("Danh sach rong");
             return;
@@ -138,7 +138,7 @@ public class DSChiTietHD {
     }
 
     public void timChiTietHD() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         if (danhSachCTHD.length == 0) {
             System.out.println("Danh sach trong");
             return;

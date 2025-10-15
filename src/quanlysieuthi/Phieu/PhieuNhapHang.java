@@ -1,6 +1,7 @@
 package quanlysieuthi.Phieu;
 
 import java.util.Scanner;
+import quanlysieuthi.danhsach.Input;
 
 public class PhieuNhapHang {
     private String maPNH;
@@ -73,7 +74,7 @@ public class PhieuNhapHang {
 
     // Hàm nhập
     public void nhap() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         System.out.print("Nhap ma phieu nhap hang: ");
         maPNH = sc.nextLine();
         System.out.print("Nhap ngay nhap: ");

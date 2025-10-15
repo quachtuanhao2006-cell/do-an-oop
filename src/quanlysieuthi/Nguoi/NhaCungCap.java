@@ -43,7 +43,7 @@ public class NhaCungCap {
 
 
     public void nhap() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         System.out.print("Nhap ma NCC: ");
         maNCC = sc.nextLine();
         System.out.print("Nhap ten: ");

@@ -3,6 +3,7 @@ package quanlysieuthi.quanli;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
+import quanlysieuthi.danhsach.Input;
 
 import quanlysieuthi.Phieu.ChiTietPhieuNhap;
 import quanlysieuthi.Phieu.PhieuNhapHang;
@@ -38,7 +39,7 @@ public class QLST {
     }
     public void setDSSP(DSSP dssp){dsSP = dssp;}
     public void QLSP(){
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         int chon = 0;
         String t;
         do{
@@ -95,7 +96,7 @@ public class QLST {
     }        
     
     public void QLHD(){
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         int chon;
         do {
             System.out.println("----------------------------------------------");
@@ -136,7 +137,7 @@ public class QLST {
     }        
     
     public void QLCTHD(){
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         int chon;
         do {
             System.out.println("----------------------------------------------");
@@ -177,7 +178,7 @@ public class QLST {
     }
 
     public void QLPNH(){
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         int chon;
         do {
             System.out.println("----------------------------------------------");
@@ -214,7 +215,7 @@ public class QLST {
     }
 
     public void QLCTPNH(){
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         int chon;
         do {
             System.out.println("----------------------------------------------");
@@ -250,7 +251,7 @@ public class QLST {
         } while (chon != 5);        
     }
     public void mua(){
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         String maHD,maKH,maNV,maSP,httt;
         int soLuong;
         double tongTien=0;
@@ -299,7 +300,7 @@ public class QLST {
         hd.xuat();
     }
     public void nhapHang(){
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         String maPNH,maNCC,maNV,maSP;
         int soLuong;
         double tongTien=0;
@@ -348,7 +349,7 @@ public class QLST {
 
     }
     public void menu(){
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         int chon = 0;
         do{
             System.out.println("==============================================");

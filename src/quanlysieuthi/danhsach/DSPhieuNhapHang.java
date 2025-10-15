@@ -33,7 +33,7 @@ public class DSPhieuNhapHang {
     }
 
     public void them() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         System.out.print("Nhap so luong phieu nhap hang can them: ");
         int n = Integer.parseInt(sc.nextLine());
 
@@ -75,7 +75,7 @@ public class DSPhieuNhapHang {
     }
 
     public void nhap() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         System.out.print("Nhap so luong phieu nhap hang can nhap: ");
         int n = Integer.parseInt(sc.nextLine());
 
@@ -114,7 +114,7 @@ public class DSPhieuNhapHang {
     }
 
     public void sua() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         if (danhSachPNH.length == 0) {
             System.out.println("Danh sach trong!");
             return;
@@ -132,7 +132,7 @@ public class DSPhieuNhapHang {
     }
 
     public void xoa() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = Input.sc;
         if (danhSachPNH.length == 0) {
             System.out.println("Danh sach trong!");
             return;
